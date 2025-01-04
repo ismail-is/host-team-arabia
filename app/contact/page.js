@@ -29,7 +29,7 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Address</h3>
-                                        <p>P.O Box: 4850, Dhakhal Mahdood, Al Jubail,<br/> Kingdom of Saudi Arabia - 31951
+                                        <p>P.O Box: 4850, Al-Jubail - 31954, <br/> Kingdom of Saudi Arabia
                                         </p>
                                     </div>
                                 </li>

@@ -7,7 +7,7 @@ export default function Whychoose() {
         <>
 
         {/* Why Choose One Start */}
-        <section className="why-choose-one">
+        <section className="why-choose-one" style={{marginBottom:'40px'}}>
             <div className="why-choose-one__bg"
                 style={{ backgroundImage: 'url(assets/images/backgrounds/why-choose-one-bg.jpg' }} ></div>
             <div className="container">

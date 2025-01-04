@@ -80,7 +80,7 @@ export default function Services2() {
                                 <div className="services-eight__single">
                                     <div className="services-eight__img-box">
                                         <div className="services-eight__img">
-                                            <img src="assets/images/services/services-2-1.jpg" alt=""/>
+                                            <img src="assets/images/allimg/service/Human.webp" alt=""/>
                                         </div>
                                     </div>
                                     <div className="services-eight__content">
@@ -111,7 +111,7 @@ Reliable manpower tailored to meet your industry's unique demands.
                                 <div className="services-eight__single">
                                     <div className="services-eight__img-box">
                                         <div className="services-eight__img">
-                                            <img src="assets/images/services/services-2-2.jpg" alt=""/>
+                                            <img src="assets/images/allimg/service/Heavy.webp" alt=""/>
                                         </div>
                                     </div>
                                     <div className="services-eight__content">
@@ -165,7 +165,7 @@ Reliable manpower tailored to meet your industry's unique demands.
                                 <div className="services-eight__single">
                                     <div className="services-eight__img-box">
                                         <div className="services-eight__img">
-                                            <img src="assets/images/services/services-2-1.jpg" alt=""/>
+                                            <img src="assets/images/allimg/service/Construction.webp" alt=""/>
                                         </div>
                                     </div>
                                     <div className="services-eight__content">
@@ -197,7 +197,7 @@ Sustainable and innovative approaches to construction.
                                 <div className="services-eight__single">
                                     <div className="services-eight__img-box">
                                         <div className="services-eight__img">
-                                            <img src="assets/images/services/services-2-2.jpg" alt=""/>
+                                            <img src="assets/images/allimg/service/Trading.webp" alt=""/>
                                         </div>
                                     </div>
                                     <div className="services-eight__content">
@@ -249,7 +249,7 @@ Commitment to delivering materials that meet industry standards.
                                 <div className="services-eight__single">
                                     <div className="services-eight__img-box">
                                         <div className="services-eight__img">
-                                            <img src="assets/images/services/services-2-1.jpg" alt=""/>
+                                            <img src="assets/images/allimg/service/Industrial.webp" alt=""/>
                                         </div>
                                     </div>
                                     <div className="services-eight__content">

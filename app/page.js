@@ -34,7 +34,7 @@ export default function Home() {
                 {/* <Contact/> */}
                 {/* <Testimonai/> */}
                 {/* <Blog/> */}
-                <Cta/>
+                {/* <Cta/> */}
                 
             </Layout>
 

@@ -35,7 +35,7 @@ export default function Banner5() {
                 </div>
                 <div className="banner-one__bottom">
                     <div className="banner-one__img">
-                        <img src="assets/images/resources/banner-one-img-1.png" alt=""/>
+                        <img src="assets/images/allimg/service/service.webp" alt=""/>
                     </div>
                     <div className="banner-one__img-shape-1">
                         <img src="assets/images/shapes/banner-one-img-shape-1.png" alt=""/>

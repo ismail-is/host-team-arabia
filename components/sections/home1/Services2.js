@@ -18,17 +18,17 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-1.jpg" alt=""/>
+                                    <img src="assets/images/allimg/homepage/Human.webp" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Human Resources & Man Power Supply</Link></h3>
+                                <h3 className="services-two__title"><Link href="services">Human Resources & Man Power Supply</Link></h3>
                                 {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
                                 </p> */}
-                                <div className="services-two__btn-box">
+                                {/* <div className="services-two__btn-box">
                                     <Link href="service-details" className="services-two__btn thm-btn">Read more<span
                                             className="icon-dabble-arrow-right"></span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -38,18 +38,18 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-2.jpg" alt=""/>
+                                    <img src="assets/images/allimg/homepage/Heavy.webp" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Heavy Equipment Rentals</Link>
+                                <h3 className="services-two__title"><Link href="services">Heavy Equipment Rentals</Link>
                                 </h3>
                                 {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
                                 </p> */}
-                                <div className="services-two__btn-box">
+                                {/* <div className="services-two__btn-box">
                                     <Link href="service-details" className="services-two__btn thm-btn">Read more<span
                                             className="icon-dabble-arrow-right"></span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -59,18 +59,18 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
+                                    <img src="assets/images/allimg/homepage/Industrial.webp" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Construction</Link>
+                                <h3 className="services-two__title"><Link href="services">Industrial Training Services</Link>
                                 </h3>
                                 {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
                                 </p> */}
-                                <div className="services-two__btn-box">
+                                {/* <div className="services-two__btn-box">
                                     <Link href="service-details" className="services-two__btn thm-btn">Read more<span
                                             className="icon-dabble-arrow-right"></span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -86,72 +86,55 @@ export default function Services2() {
 
 
 
-        <section className="services-two">
+        <section className="services-two" style={{marginTop:'-60px',marginBottom:'40px',justifyContent:'center'}}>
             <div className="container">
                 
                 <div className="row">
                     {/*Services Two Single Start*/}
-                    <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
-                        <div className="services-two__single">
-                            <div className="services-two__img-box">
-                                <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-1.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Human Resources & Man Power Supply</Link></h3>
-                                {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
-                                </p> */}
-                                <div className="services-two__btn-box">
-                                    <Link href="service-details" className="services-two__btn thm-btn">Read more<span
-                                            className="icon-dabble-arrow-right"></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                     {/*Services Two Single End*/}
                     {/*Services Two Single Start*/}
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-2.jpg" alt=""/>
+                                    <img src="assets/images/allimg/homepage/Trading.webp" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Heavy Equipment Rentals</Link>
+                                <h3 className="services-two__title"><Link href="services">Trading</Link>
                                 </h3>
                                 {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
                                 </p> */}
-                                <div className="services-two__btn-box">
+                                {/* <div className="services-two__btn-box">
                                     <Link href="service-details" className="services-two__btn thm-btn">Read more<span
                                             className="icon-dabble-arrow-right"></span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                     {/*Services Two Single End*/}
                     {/*Services Two Single Start*/}
+                 
                     <div className="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="300ms">
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
+                                    <img src="assets/images/allimg/homepage/Construction.webp" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Construction</Link>
+                                <h3 className="services-two__title"><Link href="services">Construction</Link>
                                 </h3>
                                 {/* <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
                                 </p> */}
-                                <div className="services-two__btn-box">
+                                {/* <div className="services-two__btn-box">
                                     <Link href="service-details" className="services-two__btn thm-btn">Read more<span
                                             className="icon-dabble-arrow-right"></span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
-
 
 
                     

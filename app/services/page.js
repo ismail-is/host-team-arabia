@@ -9,7 +9,7 @@ export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={6} footerStyle={5} breadcrumbTitle="Services">
+        <Layout headerStyle={1} footerStyle={5} breadcrumbTitle="Services" >
         {/*Services Page Start*/}
         {/* <section className="services-page">
             <div className="container">
@@ -153,7 +153,7 @@ export default function Home() {
 <Banner5 />
 {/* <About/> */}
 <Services2/>
-<Cta/>
+{/* <Cta/> */}
             
             </Layout>
         </>

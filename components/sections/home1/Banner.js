@@ -46,9 +46,9 @@ export default function Banner() {
                             style={{ backgroundImage: 'url(assets/images/allimg/homepage/banner1.webp' }} ></div>
                         <div className="main-slider__shape-1"
                             style={{ backgroundImage: 'url(assets/images/shapes/main-slider-shape-1.jpg' }} ></div>
-                        <div className="main-slider__img">
+                        {/* <div className="main-slider__img">
                             <img src="assets/images/resources/main-slider-img-1.png" alt=""/>
-                        </div>
+                        </div> */}
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-12">
@@ -89,9 +89,9 @@ export default function Banner() {
                             style={{ backgroundImage: 'url(assets/images/allimg/homepage/banner2.webp' }} ></div>
                         <div className="main-slider__shape-1"
                             style={{ backgroundImage: 'url(assets/images/shapes/main-slider-shape-1.jpg' }} ></div>
-                        <div className="main-slider__img">
+                        {/* <div className="main-slider__img">
                             <img src="assets/images/resources/main-slider-img-1.png" alt=""/>
-                        </div>
+                        </div> */}
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-12">

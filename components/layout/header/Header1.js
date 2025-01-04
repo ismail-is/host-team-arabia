@@ -29,11 +29,11 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                 </div>
                                 <div className="main-menu__call">
                                     <div className="main-menu__call-icon">
-                                        <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
+                                        <img src="assets/images/allimg/wts.png" alt="" style={{height:'40px'}}/>
                                     </div>
                                     <div className="main-menu__call-number">
                                         <p>Contact Us:</p>
-                                        <h5><Link href="tel:3075550133">(307) 555-0133</Link></h5>
+                                        <h5><Link href="tel:+966 539402676">+966 539402676</Link></h5>
                                     </div>
                                 </div>
                             </div>
@@ -66,11 +66,11 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                     </div>
                                     <div className="main-menu__call">
                                         <div className="main-menu__call-icon">
-                                            <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
+                                        <img src="assets/images/allimg/wts.png" alt="" style={{height:'40px'}}/>
                                         </div>
                                         <div className="main-menu__call-number">
-                                            <p>Contact Us::</p>
-                                            <h5><Link href="tel:3075550133">(307) 555-0133</Link></h5>
+                                            <p>Contact Us:</p>
+                                            <h5><Link href="tel:+966 539402676">+966 539402676</Link></h5>
                                         </div>
                                     </div>
                                 </div>

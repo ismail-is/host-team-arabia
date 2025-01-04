@@ -26,7 +26,7 @@ export default function About() {
    
     return (
         <>
-        <Layout headerStyle={6} footerStyle={5} breadcrumbTitle="About Us">
+        <Layout headerStyle={1} footerStyle={5} breadcrumbTitle="About Us"  >
         {/*About One Start */}
         <section className="about-one about-seven">
             <div className="container">
@@ -35,7 +35,7 @@ export default function About() {
                         <div className="about-one__left">
                             <div className="about-one__img wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
-                                <img src="assets/images/resources/about-one-img-1.jpg" alt=""/>
+                                <img src="assets/images/allimg/homepage/About.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -45,11 +45,13 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">ABOUT US</span>
                                 </div>
-                                <h2 className="section-title__title">We are specialized solutions Building</h2>
+                                <h2 className="section-title__title">Trusted Solutions for Modern Challenges</h2>
                             </div>
-                            <p className="about-one__text">Content Marketing Solutions: Engage, Inform, and Convert Content
-                                Marketing Solutions: Engage, Inform, and Convert </p>
-                            <ul className="about-one__points-list list-unstyled">
+                            <p className="about-one__text">Team Arabia is a premier, high quality, innovative and young firm providing consultation services, Heavy equipment supply, full-service staffing and human resource (HR) outsourcing services operating in Kingdom of Saudi Arabia.
+                            </p>
+                            <p className="about-one__text">Team Arabia is a recognized world-class leader in the executive search, temporary staffing, third-party employment and providing End to End management consultation services. Team Arabia has access to the best talent across the globe, while being close to its customers.
+                            </p>
+                            {/* <ul className="about-one__points-list list-unstyled">
                                 <li>
                                     <div className="icon">
                                         <span className="icon-analytics"></span>
@@ -68,7 +70,7 @@ export default function About() {
                                         <p>Content Marketing printing Solutions: Engage, <br/> Inform, and Convert</p>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>
@@ -86,16 +88,14 @@ export default function About() {
                 <div className="counter-two__top">
                     <div className="section-title text-left">
                         <div className="section-title__tagline-box">
-                            <span className="section-title__tagline">Best Roof rapairing</span>
                         </div>
-                        <h2 className="section-title__title">Crafting Structures that a <br/> Stand the Test </h2>
+                        <h2 className="section-title__title">
+                        We provide tailored services <br/>and build strong partnerships</h2>
                     </div>
-                    <p className="counter-two__top-text">Dictum ultrices porttitor amet nec sollicit molestie adipiscing
-                        netus. Lorem at ac ut morbi ullamcorper mol lacus. Euismod design by man loren ipsum</p>
+                    <p className="counter-two__top-text">Our success is measured by our contribution to our clients' business success</p>
                 </div>
-                <div className="counter-two__bottom">
+                {/* <div className="counter-two__bottom">
                     <div className="row">
-                        {/* Counter Two Single Start */}
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
                             <div className="counter-two__single">
                                 <div className="counter-two__icon">
@@ -108,8 +108,7 @@ export default function About() {
                                 <p className="counter-two__count-text">Team member</p>
                             </div>
                         </div>
-                        {/* Counter Two Single End */}
-                        {/* Counter Two Single Start */}
+                     
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
                             <div className="counter-two__single">
                                 <div className="counter-two__icon">
@@ -122,8 +121,7 @@ export default function About() {
                                 <p className="counter-two__count-text">Team member</p>
                             </div>
                         </div>
-                        {/* Counter Two Single End */}
-                        {/* Counter Two Single Start */}
+                        
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="600ms">
                             <div className="counter-two__single">
                                 <div className="counter-two__icon">
@@ -136,8 +134,7 @@ export default function About() {
                                 <p className="counter-two__count-text">Complete project</p>
                             </div>
                         </div>
-                        {/* Counter Two Single End */}
-                        {/* Counter Two Single Start */}
+                        
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="900ms">
                             <div className="counter-two__single">
                                 <div className="counter-two__icon">
@@ -150,15 +147,14 @@ export default function About() {
                                 <p className="counter-two__count-text">Client review</p>
                             </div>
                         </div>
-                        {/* Counter Two Single End */}
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
         {/* Counter Two End */}
 
         {/*Contact Two Start */}
-        <section className="contact-two contact-four">
+        {/* <section className="contact-two contact-four">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6">
@@ -224,11 +220,11 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*Contact Two End */}
 
         {/* Success One Start */}
-        <section className="success-one">
+        <section className="success-one" style={{marginTop:'130px',marginBottom:'40px'}}>
             <div className="success-one__shape-1">
                 <img src="assets/images/shapes/success-one-shape-1.png" alt=""/>
             </div>
@@ -236,7 +232,7 @@ export default function About() {
                 <div className="success-one__img">
                     <img src="assets/images/resources/success-one-img-1.jpg" alt=""/>
                 </div>
-                <div className="success-one__counter">
+                {/* <div className="success-one__counter">
                     <ul className="list-unstyled success-one__counter-list">
                         <li>
                             <div className="success-one__counter-count count-box">
@@ -253,7 +249,7 @@ export default function About() {
                             <p className="success-one__counter-text">Happy Clients</p>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
             <div className="container">
                 <div className="row">
@@ -261,34 +257,41 @@ export default function About() {
                         <div className="success-one__left">
                             <div className="section-title text-left">
                                 <div className="section-title__tagline-box">
-                                    <span className="section-title__tagline">Best Services</span>
+                                    {/* <span className="section-title__tagline">Why  Choose Us</span> */}
                                 </div>
-                                <h2 className="section-title__title">Create Innovative sustain
-                                    Place in the.</h2>
+                                <h2 className="section-title__title">Why  Choose Us</h2>
                             </div>
-                            <p className="success-one__text">Lorem ipsum dolor sit amet consectetur adipiscing elit sociis
-                                tempus magna vel, duis tincidunt fusce aenean lacus integer velit phasellus imperdiet
-                                the a senectus, vestibulum ridiculus es</p>
+                            <p className="success-one__text">Power your projects with confidence! At Teamarabia, we specialize in delivering skilled manpower, state-of-the-art equipment rentals, and premium trading solutions to industries worldwide.</p>
                             <ul className="list-unstyled success-one__points">
                                 <li>
-                                    <div className="success-one__points-icon">
+                                    {/* <div className="success-one__points-icon">
                                         <span className="icon-constructo-pro"></span>
-                                    </div>
-                                    <p className="success-one__points-text"><Link href="service-details">Master Craft
-                                            Construction</Link></p>
+                                    </div> */}
+                                    <p className="success-one__points-text"><Link href="service-details">Comprehensive Solutions</Link></p>
                                 </li>
                                 <li>
-                                    <div className="success-one__points-icon">
+                                    {/* <div className="success-one__points-icon">
                                         <span className="icon-proconstruct"></span>
-                                    </div>
-                                    <p className="success-one__points-text"><Link href="service-details">Quality
-                                            Construction Co</Link></p>
+                                    </div> */}
+                                    <p className="success-one__points-text"><Link href="service-details">Commitment to Excellence</Link></p>
+                                </li>
+                                <li>
+                                    {/* <div className="success-one__points-icon">
+                                        <span className="icon-proconstruct"></span>
+                                    </div> */}
+                                    <p className="success-one__points-text"><Link href="service-details">Reliable Partnerships</Link></p>
+                                </li>
+                                <li>
+                                    {/* <div className="success-one__points-icon">
+                                        <span className="icon-proconstruct"></span>
+                                    </div> */}
+                                    <p className="success-one__points-text"><Link href="service-details">Customer-Centric Approach</Link></p>
                                 </li>
                             </ul>
-                            <div className="success-one__btn-box">
+                            {/* <div className="success-one__btn-box">
                                 <Link href="about" className="success-one__btn thm-btn">Read more<span
                                         className="icon-dabble-arrow-right"></span></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -381,7 +384,7 @@ export default function About() {
         {/*FAQ One End*/}
 
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -401,7 +404,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
 
             </Layout>
