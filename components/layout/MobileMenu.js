@@ -82,19 +82,19 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button>
                                 </li> */}
-                                <li><Link href="/services">Services</Link></li>
-                                <li><Link href="/contact">Contact</Link></li>
+                                <li><Link href="/services" target="_blank">Services</Link></li>
+                                <li><Link href="/contact" target="_blank">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:needhelp@elitecons.com">needhelp@elitecons.com</Link>
+                            <Link href="mailto:info@teamarabiaksa.com">info@teamarabiaksa.com</Link>
                         </li>
                         <li>
                             <i className="fa fa-phone-alt"></i>
-                            <Link href="tel:666-888-0000">666 888 0000</Link>
+                            <Link href="tel:+966 539402676">+966 539402676</Link>
                         </li>
                     </ul>
                     <div className="mobile-nav__top">
